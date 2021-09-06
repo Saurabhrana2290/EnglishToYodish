@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        :root{
+            --primary-color: #81b882;
+        }
+        body{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            background-image: url(/images/yoda-image.jpg);
+            background-position: fixed;
+            background-size: 1355px 600px;
+            background-repeat: repeat;
+        }
+
+        .container {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .center-container {
+            max-width: 900px;
+            /* height: 60%; */
+            margin: auto;
+        }
+
+        .navigation {
+            /* border: 2px solid black; */
+            background-color: var(--primary-color);
+            height: 100px;
+        }
+
+        .navigation .top-heading {
+            text-align: center;
+            /* border: 2px solid black; */
+            /* background-color: cornflowerblue; */
+            height: 80px;
+            padding-top: 1rem;
+            font-size: 50px;
+        }
+
+        .main {
+            /* border: 2px solid black; */
+        }
+
+        #txt-input {
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            margin-left: 2rem;
+            margin-top: 2rem;
+            display: block;
+            height: 18vh;
+            width: 60%;
+            background-color:#e0d0e7;
+            font-size: 20px;
+        }
+        #btn-translate{
+            padding: 0.5rem;
+            margin-left: 2rem;
+            margin-top: 2rem;
+            display: block;
+            border: 3px solid #A7F3D0;
+            background-color: var(--primary-color);
+            height: auto;
+            width: auto;
+            font-family: 'Patrick Hand', cursive;
+            font-size: 20px;
+            border-radius: 2rem;
+            position: relative;
+            cursor: pointer;
+        }
+        #instruction{
+            margin-left: 2rem;
+            margin-top: 2rem;
+            font-size: 20px;
+            background-color: var(--primary-color);
+            width: fit-content;
+            text-align: center;
+            border-radius: 2rem;
+            padding: 0.3rem;
+        }
+        #output{
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            margin-left: 2rem;
+            margin-top: 0.1rem;
+            margin-bottom: 2rem;
+            font-size: 20px;
+            background-color: #e0d0e7;
+            width: 60%;
+            height: 18vh;
+            display: block;
+            border: 1px solid black;
+        }
+        .foot{
+            margin-top: 1rem;
+            margin-bottom: 0rem;
+            padding-bottom: 1rem;
+            /* border: 2px solid black; */
+            text-align: center;
+            background-color: var(--primary-color);
+        }
+        #about-msg{
+            max-width: 60%;
+            margin: auto;
+            display: block;
+            font-size: 30px;
+            padding-top: 1rem;
+        }
+        
